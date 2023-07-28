@@ -1,0 +1,29 @@
+{"intents": [
+        {"tag": "happy",
+         "patterns": ["happy","I am happy", "Hi whats up?", "How are you?","How is your day going on"],
+         "responses": ["Good to hear","Wow its nice", "Nice to hear", "Good"],
+         "context": [""]
+        },
+        {"tag": "sad",
+         "patterns": ["I have messed up the things", "I am not feeling good","I am heartbroken", "I cried a lot"],
+         "responses": ["I am sorry to hear","what mistakes have you made ?", "Why are you not feeling good", "Go for long walk and take care"],
+         "context": [""]
+        },
+        {"tag": "Angry",
+         "patterns": ["I am anrgy", "I'm fed up with it ", "I get annoyed with somethings","relly irrated" ],
+         "responses": ["cool your self with songs","Iam sorry A quick walk may make you feel better", "Try something new","Take a nap"],
+         "context": [""]
+        },
+        {"tag": "suprise",
+         "patterns": ["i am suprice","What a pleasnt suprise to see you here","I am astonished","I got a suprised gift"],
+         "responses": ["Great","Likewise", "ok enjoy", "Ohh its noice"],
+         "context": [""]
+        },
+        {"tag": "Fear",
+         "patterns": ["I am fear","I feel I will fail my exam", "I have my final exam tommorrow", "I have fear of heigths"],
+         "responses": ["Dont be scared","Dont overthink","Be calm and do well", "try to overcome it" ],
+         "context": [""]
+        }
+        
+   ]
+}
